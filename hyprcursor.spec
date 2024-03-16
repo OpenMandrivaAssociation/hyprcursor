@@ -34,6 +34,8 @@ Notable advantages over XCursor
 %autosetup -p1
  
 %build
+export CC=gcc
+export CXX=g++
 %cmake -DCMAKE_BUILD_TYPE:STRING=Release
 %make_build
  
