@@ -17,6 +17,7 @@ BuildRequires:  pkgconfig(hyprlang)
 BuildRequires:  pkgconfig(cairo)
 BuildRequires:  pkgconfig(libzip)
 BuildRequires:  pkgconfig(librsvg-2.0)
+BuildRequires:  pkgconfig(tomlplusplus)
 
 Requires:	%{libname} = %{EVRD}
 
