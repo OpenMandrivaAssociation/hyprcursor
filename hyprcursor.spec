@@ -71,7 +71,7 @@ export CXX=g++
 
 %files -n %{libname}
 %{_libdir}/libhyprcursor.so.%{major}
-%{_libdir}/libhyprcursor.so.%{version}
+%{_libdir}/libhyprcursor.so.0.1.7
 
 %files -n %{devname}
 %{_libdir}/libhyprcursor.so
