@@ -4,13 +4,13 @@
 %define devname %mklibname -d hyprcursor
 
 Name:           hyprcursor
-Version:        0.1.7
-Release:        1.20240420.0
+Version:        0.1.8
+Release:        1
 Summary:        The hyprland cursor format, library and utilities. 
 License:        BSD-3-Clause license 
 Group:          Hyprland
 URL:            https://github.com/hyprwm/hyprcursor/
-Source0:        https://github.com/hyprwm/hyprcursor/archive/refs/tags/v%{version}/%{name}-%{version}.tar.xz
+Source0:        https://github.com/hyprwm/hyprcursor/archive/refs/tags/v%{version}/%{name}-%{version}.tar.gz
 
 BuildRequires:  cmake
 BuildRequires:  pkgconfig(hyprlang)
