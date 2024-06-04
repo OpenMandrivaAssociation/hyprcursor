@@ -58,8 +58,8 @@ This package contains development files for %{name}.
  
 %build
 # Compilation with Clang 18 failed, problem reported to upstream: https://github.com/hyprwm/hyprcursor/issues/8
-export CC=gcc
-export CXX=g++
+#export CC=gcc
+#export CXX=g++
 %cmake -DCMAKE_BUILD_TYPE:STRING=Release
 %make_build
  
