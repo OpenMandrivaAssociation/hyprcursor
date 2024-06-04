@@ -71,7 +71,7 @@ This package contains development files for %{name}.
 
 %files -n %{libname}
 %{_libdir}/libhyprcursor.so.%{major}
-%{_libdir}/libhyprcursor.so.0.1.7
+%{_libdir}/libhyprcursor.so.%{version}
 
 %files -n %{devname}
 %{_libdir}/libhyprcursor.so
