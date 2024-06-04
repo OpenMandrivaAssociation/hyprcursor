@@ -4,7 +4,7 @@
 %define devname %mklibname -d hyprcursor
 
 Name:           hyprcursor
-Version:        0.1.8
+Version:        0.1.9
 Release:        1
 Summary:        The hyprland cursor format, library and utilities. 
 License:        BSD-3-Clause license 
