@@ -4,7 +4,7 @@
 %define devname %mklibname -d hyprcursor
 
 Name:           hyprcursor
-Version:        0.1.11
+Version:        0.1.12
 Release:        1
 Summary:        The hyprland cursor format, library and utilities. 
 License:        BSD-3-Clause license 
@@ -57,9 +57,6 @@ This package contains development files for %{name}.
 %autosetup -p1
  
 %build
-# Compilation with Clang 18 failed, problem reported to upstream: https://github.com/hyprwm/hyprcursor/issues/8
-#export CC=gcc
-#export CXX=g++
 %cmake -DCMAKE_BUILD_TYPE:STRING=Release
 %make_build
  
