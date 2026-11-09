@@ -13,6 +13,7 @@ URL:            https://github.com/hyprwm/hyprcursor/
 Source0:        https://github.com/hyprwm/hyprcursor/archive/refs/tags/v%{version}/%{name}-%{version}.tar.gz
 
 BuildRequires:  cmake
+BuildRequires:  make
 BuildRequires:  pkgconfig(hyprlang)
 BuildRequires:  pkgconfig(cairo)
 BuildRequires:  pkgconfig(libzip)
